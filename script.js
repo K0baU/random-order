@@ -8,7 +8,7 @@ const myfunc1 = function(value){
 
 let order=new Array();
 for (let i = 0; i < 39; i++) {
-  order[i]=i+1;
+  order.push(i+1);
 }
 for (let i = 0; i < order.length; i++) {
   const random=Math.floor(Math.random()*(order.length-i));
